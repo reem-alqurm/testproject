@@ -9,7 +9,7 @@ body, html {
    font-family: 'Roboto Slab', serif;
     margin: 0;
   width: 100%;
-height: 100%;
+  height: 100%;
     padding: 0;
 }
 
@@ -62,13 +62,6 @@ border-top-right-radius: 12px;
   
 }
 
-.card__info-hover {
-    position: absolute;
-    padding: 16px;
-  width: 100%;
-  opacity: 0;
-  top: 0;
-}
 
 .card__img--hover {
   transition: 0.2s all ease-out;
@@ -99,7 +92,7 @@ top: 0;
 }
 
 .card__info {
-z-index: 2;
+/* z-index: 2; */
   background-color: #fff;
   border-bottom-left-radius: 12px;
 border-bottom-right-radius: 12px;
@@ -108,9 +101,9 @@ border-bottom-right-radius: 12px;
 
 .card__category {
     font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
+    text-transform: uppercase; /*to make the text uppercase*/
     font-size: 13px;
-    letter-spacing: 2px;
+    letter-spacing: 2px; /*to add a spaces between the letters*/
     font-weight: 500;
   color: #868686;
 }
@@ -134,7 +127,7 @@ border-bottom-right-radius: 12px;
 }
 
 .card:hover .card__info {
-    background-color: transparent;
+    background-color: transparent;/* to make the background transparent*/
     position: relative;
 }
 
