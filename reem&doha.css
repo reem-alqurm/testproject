@@ -1,0 +1,208 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;  
+    font-family: sans-serif;
+    background-image: url(https://image.freepik.com/free-vector/abstract-speed-technology-background_115579-426.jpg);
+    background-repeat: no-repeat;
+     background-size: cover;
+  
+   }   
+main{
+    margin:auto;
+    width: 80%;
+}
+
+ .container{
+  
+      width: 33%;
+      margin:0 auto;
+      overflow: hidden;
+      padding: 1%;
+      background-color: #78a7ddc0;
+      border-radius: 30px;
+      margin-top: 70px;
+      margin-bottom: 70px;
+      float: left;
+      position: relative;
+      left: 80px;
+    }
+
+.info{
+    width: 60%;
+    margin:0 auto;
+    overflow: hidden;
+    padding: 1%;
+    /* background-color: #dd7e78d7; */
+    border-radius: 30px;
+    /* display: inline-flex; */
+   
+    position: relative;
+   
+}
+
+   .container h2{
+      text-align: center;
+       text-decoration: underline;
+        text-underline-position: under;
+        color:#312c51;
+        letter-spacing: 1px;
+        font-size: xx-large;
+        font-family: 'Libre Baskerville', serif;
+    margin-bottom: 10px;
+
+        
+    }
+
+    #contact-section .container p{
+      text-align: center; 
+      width: 94%; 
+      margin-left: auto;
+       margin-right: auto; 
+       padding-bottom: 1%;
+       color: #48426d;
+       letter-spacing:1px;
+       font-size: large;
+       font-family:'Libre Baskerville', serif;
+    
+    }
+
+    
+      input{
+        padding: 8px;
+        margin:13px;
+        width: 80%;
+        background-color:rgba(136, 133, 133, 0.5);
+        color: white;
+        border-radius: 20px;
+        outline:none;
+      }
+
+      input::placeholder{
+        color: white;
+      }
+    
+       textarea{
+      padding: 20px;
+      margin: 12px;     
+      width: 75%;
+      background-color:rgba(136, 133, 133, 0.5);
+      color: white;
+      border: none;
+      outline:none;
+      border-radius: 20px;
+      font-size: 15px;
+     }
+     textarea::placeholder{
+       color: white;
+     }
+     
+      
+    
+      .submit{
+      width: 43%;
+      border-radius: 32px;
+      background: none;
+      padding: 4px;
+       font-size: 13px;
+       font-family:'Libre Baskerville', serif;
+      font-weight: bold;
+            height: 33px;
+      text-align: center;
+      cursor: pointer;
+      letter-spacing: 2px;
+      margin-left: 6%;
+      border:2px solid #312c51;
+      color: #312c51;
+      border-radius: 20px;
+     }
+
+     .submit:hover{
+           border: 1px solid #fff;
+      color: #fff;
+      cursor: pointer;
+     }
+
+      .ccc {
+        height: 50px;
+        }
+/*////////////////////////////////////*/
+
+          .infocardContainer h2 {
+            font-weight: 50px; font-style: italic; font-family: "Fira Sans Condensed", sans-serif;
+          }
+         
+          .infocardContainer {
+            display: flex;
+            height: 100px;
+            width: 100px;
+            border-radius: 100px;
+           
+            background: linear-gradient(121deg, #f1eaea83 13%, rgba(56, 154, 235, 0.719) 70%);
+            transition: all 500ms ease-in;
+            transition-delay: 1s;
+            /* margin: auto; */
+            margin-left: 100px;
+            margin-top: 100px;
+            --margin-top: 100px;
+            float: left;
+          }
+          .infocardContainer:hover {
+            width:300px;
+            border-radius: 100px 10px 100px 100px;
+            transition: all 1s ease-out;
+          }
+          
+  
+.infocardContainer #main img{
+            height: 200px;
+            width: 200px;
+            padding-right: 10px;
+            border-radius: 100%;
+            flex-shrink: 0;
+            object-fit: cover;
+          }
+          
+          .infocardContainer #main{
+            height: 100px;
+            width: 100px;
+            padding-right: 10px;
+            border-radius: 100%;
+            flex-shrink: 0;
+            object-fit: cover;
+          }
+          .infocardContainer #main img{
+            height: 80px;
+            width: 80px;
+            transition: none;
+            display: float;
+            position: relative;
+            border: 10px solid rgba(8, 134, 236, 0.938);
+            margin: 0 0 0 0; padding: 0 0 0 0;
+          }
+          .infocardContainer #textbois {
+            position: relative;
+            overflow: hidden;
+            font-size: 10px;
+            right: 10px;
+
+          }
+          .infocardContainer #textbois #hotlinks {
+            /* --background-color: white; */
+            position:absolute;
+            left: 60px;
+            bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 13px;
+          }
+          .infocardContainer #textbois #hotlinks * {
+            max-width: 20px;
+            --margin: 0 1px 0 1px;
+            border-radius: 25px;
+          }
+        
+        .girls{
+        position: relative;
+        left: 65px;          
+    } 
