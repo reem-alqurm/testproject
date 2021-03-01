@@ -16,9 +16,6 @@ body, html {
 body {
   background-color: #7a7c7c;
   display: flex;
-  display: -webkit-flex;
-  -webkit-justify-content: center;
-  -webkit-align-items: center;
   justify-content: center;
   align-items: center;
 }
@@ -26,9 +23,7 @@ body {
 .cards {
     width: 100%;
     display: flex;
-    display: -webkit-flex;
     justify-content: center;
-    -webkit-justify-content: center;
     max-width: 1300px;
 }
 
@@ -64,7 +59,7 @@ border-top-right-radius: 12px;
 
 
 .card__img--hover {
-  transition: 0.2s all ease-out;
+  transition: 0.2s all ease-out; /*to make the movment of the pop uped photo more smother*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -78,25 +73,26 @@ top: 0;
 }
 .card {
   margin-right: 25px;
-  transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+  /* transition: all .4s cubic-bezier(0.175, 0.885, 0, 1); */
   background-color: #fff;
     width: 33.3%;
   position: relative;
   border-radius: 12px;
-  overflow: hidden;
+  /* overflow: hidden; */
   box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
 }
 .card:hover {
   box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
-    transform: scale(1.10, 1.10);
+    transform: scale(1.10, 1.10);/*to make the box pop up when hovering*/
 }
 
 .card__info {
 /* z-index: 2; */
-  background-color: #fff;
-  border-bottom-left-radius: 12px;
-border-bottom-right-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.993);
+  border-bottom-left-radius: 12px; /*To add a rounded corners to the profile box form left */
+ border-bottom-right-radius: 12px;                /*and rgiht also*/
    padding: 16px 24px 24px 24px;
+
 }
 
 .card__category {
