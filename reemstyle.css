@@ -1,45 +1,37 @@
-@import url(https://fonts.googleapis.com/css?family=Lato);
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);‏
-html {
-    height: 100%;
-  }
-  body {
-    margin:0;
-    padding:0;
-    font-family: sans-serif;
-    background: linear-gradient(#301414, #000000);
-   
-  }
-  *{
-    box-sizing: border-box;
-  }
-
+  
  
-  .login-box { 
-    width: 25%;
+ body{
+width: 100%;
+ }
+ .login-box {
     position: absolute;
-    top: 60%;
-    left: 80%;
+    top:70%;
+    left: 70%;
+    width: 400px;
     padding: 40px;
     transform: translate(-50%, -50%);
-    background: rgba(0,0,0,.5);
+    background: linear-gradient(180deg, transparent, #000000);
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
-    border-radius: 10px;
+    border-radius: 7px;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .login-box h2 {
     margin: 0 0 30px;
     padding: 0;
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
   }
   .login-box h3 {
     margin: 0 0 30px;
     padding: 0;
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-align: center;
-    font-size: smaller;
+    font-size: small;
+    font-weight: bold;
   }
   
   .login-box .user-box {
@@ -50,7 +42,7 @@ html {
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     margin-bottom: 30px;
     border: none;
     border-bottom: 1px solid #fff;
@@ -63,7 +55,8 @@ html {
     left: 0;
     padding: 10px 0;
     font-size: 16px;
-    color: #fff;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
     pointer-events: none;
     transition: .5s;
   }
@@ -74,6 +67,7 @@ html {
     left: 0;
     color: #f40303;
     font-size: 12px;
+    font-weight: bold;
   }
   
   .login-box form a {
@@ -177,123 +171,5 @@ html {
     }
     50%,100% {
       bottom: 100%;
-    }
-  }
-  .photos{
-    display: inline-block;
-  
-  }
-  
-  .photos{
-    /* background-color: brown; */
-    width: 65%;
-    height: 600px;
-
-  }
-  
-  .wrap
-  {
-    margin:50px auto 0 auto;
-    width:100%;
-    /* height: 300px; */
-    display:flex;
-    align-items:space-around;
-    max-width:1200px;
-    /* background-color: brown; */
-  }
-  .tile
-  {
-    width:200px;
-    height:200px;
-    margin:7px;
-    background-color:#0000004d;
-    display:inline-block;
-    background-size:cover;
-    position:relative;
-    cursor:pointer;
-    transition: all 0.4s ease-out;
-    box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.70);
-    overflow:hidden;
-    color:white;
-    font-family:'Roboto';
-    border-radius: 8px;
-    left: 90px;
-    top: 100px;
-    /* background-color: red; */
-    
-    
-  }
-  .girls{
-  position: relative;
-  left: 170px;
-}
-  .tile img
-  {
-    height:100%;
-    width:100%;
-    position:absolute; 
-    top:0;
-    left:0;
-    z-index:0;
-    transition: all 0.4s ease-out;
-  }
-  .tile .text
-  {
-  /*   z-index:99; */
-    position:absolute;
-    padding:30px;
-    /* height:calc(100% - 60px); */
-    height: 100%;
-    font-size:large;
-    /* background-color: greenyellow; */
-  }
-  /* .tile h1
-  {
+    }}
    
-    font-weight:200;
-    margin:0;
-    text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
-  } */
-  .tile h2
-  {
-    font-weight:100;
-    margin:20px 0 0 0;
-    transform: translateX(200px);
-    text-align: center;
-  }
-  
-  .animate-text
-  {
-    opacity:0;
-    transition: all 0.6s ease-in-out;
-    position: relative;
-    top: 20px;
-    /* text-align: center; */
-  }
-  .tile:hover
-  {
-  box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
-  transform:scale(1.05);
-  }
-  .tile:hover img
-  {
-    opacity: 0.2;
-    
-  }
-  .tile:hover .animate-text
-  {
-    transform:translateX(0);
-    opacity:1;
-    
-  }  
-  /* .tile:hover span
-  {
-    opacity:1;
-    transform:translateY(0px);
-  } */
-  .fa {
-     /* background-color:hotpink; */
-    position:relative;
-  left: 65px;
- 
-}
